@@ -1,11 +1,15 @@
 
 language: node_js
+node_js:
+  - '0.8'
+  - '0.10'
+  - '0.11'
 
 # 执行isntall前需要执行的命令
 before_install:
 # 配置git 的个人信息
  - git config --global user.name 'hyt222'
- - git config --global user.email ythuang2012163@163.com
+ - git config --global user.email 'ythuang2012163@163.com'
 
 # 执行install
 install:
