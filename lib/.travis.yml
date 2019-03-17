@@ -1,0 +1,10 @@
+
+language: node_js
+
+# 执行install
+install:
+ - npm install
+
+# 执行命令脚本
+script:
+ - mocha
