@@ -5,6 +5,11 @@ node_js:
   - '0.10'
   - '0.11'
 
+# 仓库的分支
+branches:
+  only:
+  - master
+
 # 执行isntall前需要执行的命令
 before_install:
 # 配置git 的个人信息
